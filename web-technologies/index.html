@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+<!--header-->
+
+<header id="header" class="header">
+    <div class="container">
+        <div class="container_header">
+            <img src="assets/img/svg/logo_css.svg" alt="logo-css" class="header_logo">
+            <div class="header_space">
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_list_items">
+                            <a href="#about-css" class="header_list_item">О технологии</a>
+                        </li>
+                        <li class="header_list_items">
+                            <a href="#docu" class="header_list_item">Документация</a>
+                        </li>
+                        <li class="header_list_items">
+                            <a href="#skills" class="header_list_item">Ключевые понятия</a>
+                        </li>
+                        <li class="header_list_items">
+                            <a href="#tools" class="header_list_item">Инструменты для разработки</a>
+                        </li>
+                        <li class="header_list_items">
+                            <a href="#more" class="header_list_item">Смотрите также</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="day-night-mode"></div>
+            </div>
+            <div class="header_burger">
+                <div class="burger_line burger_line_1"></div>
+                <div class="burger_line burger_line_2"></div>
+                <div class="burger_line burger_line_3"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--header-->
+
+<main class="main">
+
+<!--intro-->
+
+        <section class="intro">
+            <div class="container">
+                <div class="container_intro">
+                    <h1 class="big_title">
+                        Давайте познакомимся с CSS
+                    </h1>
+                    <h2 id="about-css" class="main_title">
+                        Технология CSS
+                    </h2>
+                        <div class="intro_subtitle">
+                            <p class="main_subtitle">
+                                <img src="assets/img/intro_pic.png" alt="intro_pic" class="intro_pic" title="css example">
+                                CSS (англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа,
+                                написанного с использованием языка разметки. CSS используется создателями веб-страниц для задания цветов, шрифтов,
+                                расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц.
+                            </p>
+                            <p class="main_subtitle">
+                                Основной целью разработки CSS являлось разделение описания логической 3 структуры веб-страницы
+                                (которое производится с помощью HTML или других языков разметки) от описания внешнего вида этой веб-страницы
+                                (которое теперь производится с помощью формального языка CSS). Такое разделение может увеличить доступность документа,
+                                предоставить большую гибкость и возможность управления его представлением, а также уменьшить сложность и
+                                повторяемость в структурном содержимом. Кроме того, CSS позволяет представлять один и тот же документ в
+                                различных стилях или методах вывода, таких как экранное представление, печатное представление, чтение голосом
+                                (специальным голосовым браузером или программой чтения с экрана), или при выводе устройствами, использующими шрифт Брайля.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+<!--intro-->
+
+<!--docu-->
+
+        <section id="docu" class="docu">
+            <div class="container">
+                <div class="container_docu">
+                    <h2 class="main_title">
+                        Документация
+                    </h2>
+                    <div class="ducu_subtitle-box">
+                        <p class="main_subtitle">
+                            Cascading Style Sheets (CSS) — это язык иерархических правил <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet">(таблиц стилей)</a>
+                            , используемый для представления внешнего вида документа, написанного на <a href="https://developer.mozilla.org/ru/docs/Web/HTML">HTML</a> или
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/XML">XML </a>(включая различные языки XML, такие как <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a> и
+                            <a href="https://developer.mozilla.org/ru/docs/Glossary/XHTML">XHTML</a>). CSS описывает, каким образом элемент должен отображаться на экране, на бумаге, голосом или
+                            с использованием других медиа средств.
+                        </p>
+                        <p class="main_subtitle">
+                            CSS является одним из основных языков свободной веб-разработки, который <a href="https://www.w3.org/Style/CSS/#specs">стандартизован спецификацией W3C</a>.
+                            Стандарт CSS делится на уровни: CSS1 в настоящее время устарел, CSS2.1 — рекомендован для применения, а CSS3, разбитый на более мелкие модули, развивается на пути стандартизации.
+                        </p>
+                    </div>
+                    <nav class="docu_nav">
+                        <ul class="docu_list">
+                            <li class="docu_list-item main_subtitle">
+                                Справочник по CSS
+                            </li>
+                            <p class="main_subtitle">
+                                <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Reference">Исчерпывающий справочник</a> для опытных веб-разработчиков, описывающий каждое свойство и понятие CSS.
+                            </p>
+                        </ul>
+                        <ul class="docu_list">
+                            <li class="docu_list-item main_subtitle">
+                                Самоучитель по CSS
+                            </li>
+                            <p class="main_subtitle">
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps">Пошаговое руководство</a> для помощи начинающим программистам CSS. Содержит все необходимые основы.
+                            </p>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+<!--docu-->
+
+<!--kay skills-->
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="container_skills">
+                <h2 class="main_title">
+                    Ключевые понятия
+                </h2>
+                <p class="main_subtitle">
+                    Описание <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">синтаксиса и внешнего вида языка </a> и введение в фундаментальные понятия такие как
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">специфичность</a> ,
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance">наследование (каскадирование)</a> , блочная модель и схлопывание отступов,
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">наложение </a>
+                    и контекст форматирования, начальное, вычисленное, используемое и актуальное значения. Кроме того, описана <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">краткая форма записи</a> свойств CSS.
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!--kay skills-->
+
+<!--development tools-->
+
+    <section id="tools" class="tools">
+        <div class="container">
+            <div class="container_tools">
+                <h2 class="main_title">
+                    Инструменты для разработки
+                </h2>
+                <nav class="docu_nav">
+                    <ul class="docu_list">
+                        <li class="main_subtitle tools_subtitle">
+                            <a href="https://jigsaw.w3.org/css-validator/">Справочник по CSS </a>проверяет правильность работы вашего CSS кода. Служба
+                            <a href="https://OnlineWebCheck.com">OnlineWebCheck.com</a> делает то же самое. Это отличные инструменты для отладки.
+                        </li>
+                        <li class="main_subtitle tools_subtitle">
+                            <a href="https://developer.mozilla.org/ru/docs/Tools">Инструменты разработчика Firefox </a>позволяют рассматривать и изменять "на лету" CSS страницы с помощью инструментов
+                            <a href="https://developer.mozilla.org/ru/docs/Tools/Page_Inspector">Инспектор</a> и <a href="https://developer.mozilla.org/ru/docs/Tools/Style_Editor">Редактор таблиц стилей</a>.
+                        </li>
+                        <li class="main_subtitle tools_subtitle">
+                            Расширение Firebug для Firefox, популярное расширение для этого браузера, которое также позволяет редактировать "на лету" CSS код при просмотре сайтов. Помогает легко тестировать работу кода при внесении различных изменений. Помимо этого, расширение имеет другие полезные функции.
+                        </li>
+                        <li class="main_subtitle tools_subtitle">
+                            <a href="https://addons.mozilla.org/ru/firefox/addon/web-developer/">Расширение Web Developer</a> для Firefox позволяет отслеживать и изменять "на лету" CSS код на просматриваемых сайтах. Проще чем Firebug, но обладает меньшей функциональностью.
+                        </li>
+                        <li class="main_subtitle tools_subtitle">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Прочие инструменты CSS</a>.
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+<!--development tools more-->
+
+<!--see more-->
+
+    <section id="more" class="more">
+        <div class="container">
+            <div class="container_more">
+                <h2 class="main_title">
+                    Смотрите также
+                </h2>
+                <nav class="docu_nav">
+                    <ul class="docu_list">
+                        <li class="main_subtitle">
+                            <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Руководство разработчика CSS</a>
+                        </li>
+                        <p class="main_subtitle">
+                            Статьи, которые помогут вам узнать все: начиная от основ организации стилей в HTML, заканчивая различными методами языка CSS, чтобы сделать свой контент сияющим.
+                        </p>
+                    </ul>
+                    <ul class="docu_list">
+                        <li class="main_subtitle">
+                            <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/Howto/CSS_FAQ">Распространённые вопросы по CSS</a>
+                        </li>
+                        <p class="main_subtitle">
+                            Ответы на часто возникающие вопросы о CSS.
+                        </p>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+<!--see more tools-->
+
+</main>
+
+<footer class="header">
+    <div class="container">
+        <div class="container_footer">
+            <div class="footer_items">
+                <div class="footer_item">©</div>
+                <div class="footer_item">2022</div>
+                <div class="footer_item"><a href="https://digdes.ru/it-university/courses/front-end-development" class="footer_link">Digital Design</a></div>
+                <div class="footer_item"><a href="https://digdes.ru/it-university/courses/front-end-development"><img src="assets/img/favicon.ico" alt="logo"></a></div>
+            </div>
+        </div>
+    </div>
+    <a href="#header" class="back_to_top"></a>
+</footer>
+
+<script src="assets/js/index.js"></script>
+</body>
+</html>
